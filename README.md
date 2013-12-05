@@ -25,3 +25,8 @@ Présentation sur l'usine de développement
 * Déploiement continu
  * Gestion des branches
  * Livraison des fonctionnalités et stratégies de déploiement
+* [Zero Downtime Deployment](http://blog.octo.com/zero-downtime-deployment/)
+
+
+* [Evoquer Gatling en alternative à Jmeter](http://blog.xebia.fr/2013/07/11/gatling-ou-comment-ecrouler-un-serveur-alternative-a-jmeter/)
+* Ajouter le versionning de base de données avec [Liquibase, Flyway ou autre](http://flywaydb.org/#features)
