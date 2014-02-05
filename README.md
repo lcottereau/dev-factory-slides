@@ -13,6 +13,7 @@ Présentation sur les outils de dev
  * dépôt de code versionné : demander ce qu'ils ont retenu de l'intérêt (historique, documentation, sauvegarde, partage)
  * serveur d'intégration continue
  * dépôt de binaires (maven, rpm, ...)
+ * Document : __Sonar (x2)__
  * documentation et analyse statique
  * Infrastructure avec provisionnement automatique (virtualisation, PaaS, ...)
 
