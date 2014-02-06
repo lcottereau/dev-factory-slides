@@ -44,6 +44,8 @@ Document : __Usine de développement__
  * coder l'applicatif
  * message de commit avec le numéro de ticket et FIXES (à tester)
 * valider dans l'intégration continue
+ * dans le build, on met juste mvn package
+ * on rajoute ensuite mvn sonar:sonar
 
 on évoque la problématique des archétypes (génération automatique) : regarder le pom.xml, le AppTest, ...
 
