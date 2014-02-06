@@ -6,21 +6,25 @@ Présentation sur les outils de dev
 
 ## Les briques de l'usine de dev
 
-* Document : __Usine de développement__
-* Présentation des outils 
- * outils de dev (maven, IDE, ...). inclure le versionning de base de données avec [Liquibase, Flyway ou autre](http://flywaydb.org/#features)
- * parler des outils de test, [évoquer Gatling en alternative à Jmeter](http://blog.xebia.fr/2013/07/11/gatling-ou-comment-ecrouler-un-serveur-alternative-a-jmeter/)
- * dépôt de code versionné : demander ce qu'ils ont retenu de l'intérêt (historique, documentation, sauvegarde, partage)
- * serveur d'intégration continue
- * dépôt de binaires (maven, rpm, ...)
- * Document : __Sonar (x2)__
+Document : __Usine de développement__
+
+* Outils de développement
+ * maven : gain de temps (packaging, dépendences, ...), bonnes pratiques (tests), hors IDE
+ * IDE : pas figé, mais le maîtriser (raccourcis clavier en particulier)
+ * parler des types de tests automatisés (unitaires, fonctionnels, montée en charge, ...)
+* Dépôt de code versionné
+ * demander ce qu'ils ont retenu de l'intérêt (historique, documentation, sauvegarde, partage)
+ * on peut [versionner la base de données](http://flywaydb.org/#features)
+ * évoquer la revue de code
+* serveur d'intégration continue
+* Document : __Sonar (x2)__
  * documentation et analyse statique
- * Infrastructure avec provisionnement automatique (virtualisation, PaaS, ...)
+* dépôt de binaires (maven, rpm, ...)
 
 ## code Kata : [main de poker](http://codingdojo.org/cgi-bin/wiki.pl?KataPokerHands)
 
 
-* Document : __description du kata_ 
+* Document : __description du kata__
 * installer maven
 * `mvn archetype:generate` avec options par défaut
 
@@ -44,13 +48,12 @@ Présentation sur les outils de dev
 
 * mettre à jour le pom.xml
 
-## DevOps
+## [DevOps](http://techtrends.xebia.fr/#tabs-2)
 
-* [DevOps](http://techtrends.xebia.fr/#tabs-2)
- * [Infrastructure as code](http://blog.octo.com/et-si-devops-nous-emmenait-vers-tdi-test-driven-infrastructure/)
+* [Infrastructure as code](http://blog.octo.com/et-si-devops-nous-emmenait-vers-tdi-test-driven-infrastructure/)
  * moins de frontière entre 2 mondes souvent pas sur les mêmes rythmes (projet, quotidien, problématiques, expertises, ...)
  * essayer de transformer le SI en self-service pour les dev, géré par les Ops (voir aussi le _cloud_, PaaS, SaaS, ...)
-* préciser les principes de base de numérotation de version
+* Infrastructure avec provisionnement automatique (virtualisation, PaaS, ...)
 * Gestion de la configuration
  * séparation binaire applicatif / configuration
  * centralisation de configuration Chef, Puppet
