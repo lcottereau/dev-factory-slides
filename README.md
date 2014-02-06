@@ -40,7 +40,7 @@ Document : __Usine de développement__
  * `git push -u origin master`
 * commencer à coder
  * faire le premier ticket
- * coder le test
+ * coder le test : _vérifier qu'un AS est plus grand qu'un Valet, un 2 plus petit qu'un 10 et un 9 égal à un autre 9_
  * coder l'applicatif
  * message de commit avec le numéro de ticket et FIXES (à tester)
 * valider dans l'intégration continue
