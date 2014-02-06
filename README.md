@@ -23,30 +23,29 @@ Document : __Usine de développement__
 
 ## code Kata : [main de poker](http://codingdojo.org/cgi-bin/wiki.pl?KataPokerHands)
 
-
-* Document : __description du kata__
-* installer maven
-* `mvn archetype:generate` avec options par défaut
-
-* Document : __description git__
-* `git init`
-* `git add --all`
-* `git commit -m "init"`
-* Se connecter avec un compte `userX` à la plateforme [GitLab](http://gitlab.org/)
-* Créer un projet
-* `git config`
-* Prendre l'URL projet en `HTTP`
-* `git remote add origin http://(...)`
-* `git push -u origin master`
-
-* faire le premier ticket
-* coder le test
-* coder l'applicatif
-* message de commit avec le numéro de ticket et FIXES (à tester)
+* initialisation
+ * Document : __description du kata__
+ * installer maven
+ * `mvn archetype:generate` avec options par défaut
+* git
+ * Document : __description git__
+ * `git init`
+ * `git add --all`
+ * `git commit -m "init"`
+ * Se connecter avec un compte `userX` à la plateforme [GitLab](http://gitlab.org/)
+ * Créer un projet
+ * `git config`
+ * Prendre l'URL projet en `HTTP`
+ * `git remote add origin http://(...)`
+ * `git push -u origin master`
+* commencer à coder
+ * faire le premier ticket
+ * coder le test
+ * coder l'applicatif
+ * message de commit avec le numéro de ticket et FIXES (à tester)
 * valider dans l'intégration continue
 
-
-* mettre à jour le pom.xml
+on évoque la problématique des archétypes (génération automatique) : regarder le pom.xml, le AppTest, ...
 
 ## [DevOps](http://techtrends.xebia.fr/#tabs-2)
 
